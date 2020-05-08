@@ -1,0 +1,1010 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+
+}
+
+.row {
+    max-width: 1180px;
+
+}
+
+/*==============header section start==================*/
+
+header {
+    width: 100%;
+    height: 100vh;
+
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.8)), to(rgba(17, 17, 17, 0.8))),
+        url(img/header-bg.jpg) no-repeat center/cover;
+
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(17, 17, 17, 0.8)),
+        url(img/header-bg.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+
+
+.logo {
+    position: fixed;
+    float: left;
+    margin: 15px 40px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+
+
+
+
+}
+
+
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+header span {
+    display: none;
+}
+
+
+/*===========mobile menu end================*/
+
+
+nav {
+    position: fixed;
+    width: 100%;
+
+
+    color: #fff;
+
+}
+
+
+
+
+nav ul {
+    float: right;
+    margin-top: 15px;
+    color: #000;
+    margin-right: 100px;
+
+}
+
+nav ul li {
+    display: inline-block;
+
+    margin: 20px;
+}
+
+
+
+nav ul li a {
+
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+    font-size: 140%;
+
+
+
+}
+
+nav ul li a:hover {
+    color: #fcac45;
+    text-decoration: none;
+}
+
+
+
+
+.sticky {
+
+    position: fixed;
+    width: 100%;
+    background: #fcac45;
+    -webkit-box-shadow: 0px 5px 10px 0px;
+    box-shadow: 0px 5px 10px 0px;
+    color: #111;
+
+
+}
+
+.sticky ul {
+    margin-top: 15px;
+    color: #000;
+    margin-right: 100px;
+
+
+}
+
+.sticky ul li {
+    margin: 20px;
+}
+
+.sticky ul li a {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.sticky ul li a:hover {
+    color: #000;
+}
+
+.sticky img {
+    margin-left: 70px;
+
+
+}
+
+nav img {
+    font-size: 20px;
+    margin: 35px 0px 15px 100px;
+    display: inline-block;
+}
+
+
+header h1 {
+    display: inline-block;
+    text-transform: uppercase;
+
+    font-size: 440%;
+    font-weight: 700;
+    margin: 270px 10px 0 440px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    z-index: 1;
+}
+
+header b {
+
+    text-transform: uppercase;
+    display: inline-block;
+
+
+    font-size: 440%;
+    font-weight: 700;
+    margin: 0px 0 20px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #fcac45;
+    z-index: 1;
+
+}
+
+
+
+
+p {
+    text-align: center;
+    margin: 0px 50px;
+    font-size: 200%;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    z-index: 1;
+}
+
+
+
+header .fa-angle-down {
+
+    font-size: 200%;
+    margin: 120px 0px 0 660px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 6px 10px;
+
+
+
+
+}
+
+/*===============About Css===============*/
+#about {
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+        url(img/about-bg.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+        url(img/about-bg.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+
+}
+
+.grid-about-col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.grid-about-col-2 h4 {
+    font-size: 200%;
+    text-align: center;
+
+
+
+}
+
+.grid-about-col-2 h2 {
+    font-size: 340%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+
+.grid-about-col-2 p {
+    font-size: 180%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #000;
+
+}
+
+.grid-about-col-2 h5 {
+    font-size: 180%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #000;
+
+}
+
+.grid-about-col-2 h5 .fa-arrow-down {
+    font-size: 50%;
+    color: #111;
+    border: 3px solid #111;
+    border-radius: 50%;
+    padding: 6px 8px;
+    font-weight: 700;
+
+
+}
+
+.mission {
+    margin-left: 12px;
+
+}
+
+
+
+.mission i {
+    margin: 0px 10px;
+}
+
+.skill {}
+
+.skill i {
+    margin: 0px 10px;
+
+
+
+}
+
+.client {
+    margin-left: 60px;
+}
+
+.client i {
+    margin: 0px 10px;
+}
+
+
+
+
+.grid-about-col-2 button i {
+    color: #000;
+}
+
+.grid-about-col-2 button {
+    width: 250px;
+    height: 60px;
+    font-size: 160%;
+    margin-left: 80px;
+    border-radius: 5px;
+    color: #000;
+    background: #fff;
+    border: 1px solid #000;
+    text-transform: uppercase;
+}
+
+.grid-about-col-2 button:hover {
+    background: #fcac45;
+    color: #000;
+    border: 1px solid #fcac45;
+}
+
+.grid-about-col-2 img {
+    width: 550px;
+    height: 420px;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.grid-about-col-2 img:hover {
+    opacity: 0.7;
+}
+
+.about-item-1 {
+    margin-top: 50px;
+
+}
+
+.about-item-2 {
+    margin-top: 50px;
+}
+
+/*======================team section=====================*/
+#team {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 80px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(7, 7, 7, 0.8)), to(rgba(7, 7, 7, 0.8))),
+        url(img/team-bg.jpg)no-repeat center/cover;
+    background: linear-gradient(rgba(7, 7, 7, 0.8), rgba(7, 7, 7, 0.8)),
+        url(img/team-bg.jpg)no-repeat center/cover;
+    background-attachment: fixed;
+}
+
+#team h2 {
+    font-size: 340%;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 70px 0px 60px 550px;
+    color: #fff;
+
+}
+
+.team-col-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.team-col-4 img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-left: 125px;
+}
+
+
+
+
+
+
+
+.team-item-1 h4 {
+    color: #fff;
+    font-size: 200%;
+    margin-left: 140px;
+
+}
+
+.team-item-1 h5 {
+    color: #fff;
+    font-size: 160%;
+    margin-left: 150px;
+    margin-top: -12px;
+
+}
+
+.team-item-1 p {
+    color: #fff;
+    font-size: 140%;
+    margin: -5px 10px 0px 120px;
+
+}
+
+
+
+.team-item-2 h4 {
+    color: #fff;
+    font-size: 200%;
+    margin-left: 160px;
+
+}
+
+.team-item-2 h5 {
+    color: #fff;
+    font-size: 160%;
+    margin-left: 170px;
+    margin-top: -12px;
+
+}
+
+.team-item-2 p {
+    color: #fff;
+    font-size: 140%;
+    margin: -5px 10px 0px 120px;
+}
+
+.team-item-3 h4 {
+    color: #fff;
+    font-size: 200%;
+    margin-left: 160px;
+
+
+}
+
+.team-item-3 h5 {
+    color: #fff;
+    font-size: 160%;
+    margin-left: 170px;
+    margin-top: -12px;
+
+}
+
+.team-item-3 p {
+    color: #fff;
+    font-size: 140%;
+    margin: -5px 10px 0px 120px;
+}
+
+.team-item-4 h4 {
+    color: #fff;
+    font-size: 200%;
+    margin-left: 180px;
+
+
+}
+
+.team-item-4 h5 {
+    color: #fff;
+    font-size: 160%;
+    margin-left: 170px;
+    margin-top: -12px;
+    margin-right: 12px;
+
+}
+
+.team-item-4 p {
+    color: #fff;
+    font-size: 140%;
+    margin: -5px 10px 0px 120px;
+}
+
+
+/*=====================services section================*/
+#services {
+    width: 100%;
+    height: 100vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+        url(img/service-bg.jpg)no-repeat center/cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+        url(img/service-bg.jpg)no-repeat center/cover;
+    background-attachment: fixed;
+
+
+
+}
+
+#services h2 {
+    font-size: 340%;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 70px 0px 10px 420px;
+    color: #000;
+
+}
+
+#services p {
+    font-size: 160%;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 40px 0px 60px 160px;
+
+
+    color: #000;
+
+}
+
+.grid-service-col-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.service-item-1 h4 {
+    color: #000;
+    font-size: 200%;
+    margin-left: 175px;
+
+}
+
+.service-item-1 i {
+    color: #000;
+    font-size: 300%;
+    margin-left: 180px;
+    margin-top: -12px;
+    border: 4px solid #fcac45;
+    border-radius: 50%;
+    padding: 30px 25px;
+
+}
+
+.service-item-1 p {
+    font-size: 140%;
+    margin: 5px 0px 0px 100px;
+    color: #000;
+}
+
+
+.service-item-2 h4 {
+    color: #000;
+    font-size: 200%;
+    margin-left: 175px;
+
+}
+
+.service-item-2 i {
+    color: #000;
+    font-size: 300%;
+    margin-left: 180px;
+    margin-top: -12px;
+    border: 4px solid #fcac45;
+    border-radius: 50%;
+    padding: 30px 35px;
+}
+
+.service-item-2 p {
+    font-size: 140%;
+    margin: -5px 0px 0px 140px;
+    color: #000;
+}
+
+.service-item-3 h4 {
+    color: #000;
+    font-size: 200%;
+    margin-left: 170px;
+}
+
+.service-item-3 i {
+    color: #000;
+    font-size: 300%;
+    margin-left: 180px;
+    margin-top: -12px;
+    border: 4px solid #fcac45;
+    border-radius: 50%;
+    padding: 30px;
+
+}
+
+.service-item-3 p {
+    font-size: 140%;
+    margin: -5px 0px 0px 160px;
+    color: #000;
+}
+
+.service-item-4 h4 {
+    color: #000;
+    font-size: 200%;
+    margin-left: 180px;
+
+}
+
+.service-item-4 i {
+    color: #000;
+    font-size: 300%;
+    margin-left: 180px;
+    margin-top: -12px;
+    border: 4px solid #fcac45;
+    border-radius: 50%;
+    padding: 30px;
+
+}
+
+.service-item-4 p {
+    font-size: 140%;
+    margin: -5px 0px 0px 160px;
+    color: #000;
+}
+
+/*====================client section====================*/
+
+
+
+
+#client {
+    width: 100%;
+    height: 50vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(11, 11, 11, 0.8)), to(rgba(11, 11, 11, 0.8))),
+        url(img/client-bg.jpg)no-repeat center/cover;
+    background: linear-gradient(rgba(11, 11, 11, 0.8), rgba(11, 11, 11, 0.8)),
+        url(img/client-bg.jpg)no-repeat center/cover;
+    background-attachment: fixed;
+}
+
+#client h2 {
+    font-size: 340%;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 70px 0px 0px 460px;
+    color: #fff;
+
+
+}
+
+.grid-client-col-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-client-col-5 img {
+    margin: 80px 0px 0px 85px;
+}
+
+/*============work section================*/
+#work {
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+        url(img/work-bg.jpg)no-repeat center/cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+        url(img/work-bg.jpg)no-repeat center/cover;
+    background-attachment: fixed;
+
+
+
+
+}
+
+#work h2 {
+    font-size: 340%;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 70px 0px 0px 450px;
+    color: #000;
+
+}
+
+#work p {
+
+
+    font-size: 180%;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #000;
+
+    margin: 30px 0px 30px 220px;
+
+
+}
+
+.work-col-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.work-col-4 img {
+    width: 300px;
+    height: 200px;
+    margin-left: 80px;
+
+
+
+}
+
+.work-col-4 img:hover {
+    opacity: 0.8;
+}
+
+#work .button {
+    margin-left: 350px;
+
+}
+
+#work button {
+    width: 120px;
+    height: 40px;
+    background: #fff;
+    color: #000;
+    border: 2px solid #fcac45;
+    margin: 20px 15px;
+    border-radius: 5px;
+    font-size: 150%;
+}
+
+#work .btn button {
+    width: 160px;
+    height: 50px;
+    margin-left: 600px;
+
+}
+
+#work button:hover {
+    background: #fcac45;
+    color: #000;
+}
+
+/*=================testimonial==============*/
+
+#testimonial {
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(11, 11, 11, 0.8)), to(rgba(11, 11, 11, 0.8))),
+        url(img/testimonial-bg.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(11, 11, 11, 0.8), rgba(11, 11, 11, 0.8)),
+        url(img/testimonial-bg.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+
+}
+
+#testimonial h2 {
+    font-size: 340%;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 70px 0px 0px 450px;
+
+
+    color: #fff;
+}
+
+#testimonial p {
+    font-size: 180%;
+    margin-left: 200px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-top: 40px;
+
+    color: #fff;
+
+}
+
+#testimonial h4 {
+    font-size: 220%;
+    margin-left: 550px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-top: 40px;
+
+    color: #fcac45;
+    padding-bottom: 70px;
+
+}
+
+/*contact section*/
+
+/*contact start here*/
+#contact {
+    padding-bottom: 50px;
+    width: 100%;
+    height: 100%;
+    margin-top: -20px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+        url(img/contact-bg.jpg)no-repeat center/cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+        url(img/contact-bg.jpg)no-repeat center/cover;
+    background-attachment: fixed;
+
+
+}
+
+#contact h2 {
+    font-size: 340%;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 50px 0px 0px 450px;
+    color: #000;
+
+
+}
+
+#contact p {
+    font-size: 180%;
+    margin-left: 200px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-top: 40px;
+    color: #000;
+}
+
+#contact form input[type='text'] {
+    width: 400px;
+    height: 50px;
+    margin: 40px 10px 15px 250px;
+
+    border: 2px solid #17191e;
+    font-size: 160%;
+    color: #4d4e51;
+
+}
+
+#contact form .subject input[type='text'] {
+    width: 850px;
+    height: 50px;
+    margin: 15px 0px 0px 250px;
+    border: 2px solid #17191e;
+    font-size: 160%;
+    color: #4d4e51;
+
+}
+
+#contact form input[type='email'] {
+    width: 425px;
+    height: 50px;
+    margin: 40px 10px 15px 10px;
+
+    border: 2px solid #17191e;
+    font-size: 160%;
+    color: #4d4e51;
+
+}
+
+#contact form textarea {
+    width: 850px;
+    height: 150px;
+    margin: 15px 0px 0px 250px;
+    border: 2px solid #17191e;
+    font-size: 160%;
+    color: #4d4e51;
+}
+
+#contact form button {
+    width: 280px;
+    height: 60px;
+
+    margin-left: 800px;
+    margin-top: 40px;
+
+
+    text-align: center;
+    color: #36383b;
+    font-size: 200%;
+    background: #fff;
+    border: 1px solid #ffda00;
+    border-radius: 50px;
+    text-transform: uppercase;
+
+}
+
+#contact form button:hover {
+    background: #ffda00;
+    color: #36383b;
+
+    border: 1px solid #ffda00;
+
+}
+
+
+
+
+
+/*footer start here*/
+footer {
+    background: #17191e;
+    width: 100%;
+    height: 100%;
+}
+
+footer span {
+    font-size: 250%;
+    color: #fff;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 500px;
+}
+
+footer h4 {
+    color: #ffdb00;
+    display: inline-block;
+    margin-left: 530px;
+    margin-top: 5px;
+
+}
+
+footer .icons {
+    margin-left: 600px;
+    margin-top: 0px;
+}
+
+
+
+footer a i {
+    color: #fff;
+
+    font-size: 160%;
+    padding: 0px 10px;
+
+
+
+
+
+
+
+}
+
+footer img {
+    color: #fff;
+    margin-left: 20px;
+
+
+
+
+
+}
+
+footer a i:hover {
+    color: #ffdb00;
+}
+
+footer a img:hover {
+    color: #ffdb00;
+
+}
